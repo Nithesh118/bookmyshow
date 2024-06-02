@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <title>React App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+      }
+
+      .login {
+        background-image: linear-gradient(to right, gold, red);
+        width: 100vw;  /* 100% of the viewport width */
+        height: 100vh; /* 100% of the viewport height */
+        margin: 0;     /* Remove default margin */
+        padding: 0;    /* Remove default padding */
+        overflow: hidden; 
+      }
+
+      .container-fluid .movee {
+        animation-name: move;
+        animation-duration: 1s;
+      }
+
+      @keyframes move {
+        0% {
+          transform: translateX(-1300px);
+        }
+        100% {
+          transform: translateX(0);
+        }
+      }
+
+      .signup {
+        background-image: linear-gradient(to right, gold, red);
+      }
+
+      .mov {
+        animation-name: move;
+        animation-duration: 1s;
+      }
+
+      .list {
+        background-image: linear-gradient(to right, gold, red);
+      }
+      .lis {
+        background-image: linear-gradient(to right, gold, red);
+      }
+
+      .nishu, .nishi {
+        background-image: url();
+        height: 100vh;
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root" class="login"></div>
+  </body>
+</html>
